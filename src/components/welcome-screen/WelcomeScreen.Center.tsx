@@ -7,6 +7,7 @@ import {
   useExcalidrawAppState,
 } from "../App";
 import { ExcalLogo, HelpIcon, LoadIcon, usersIcon } from "../icons";
+import {BoardLogo} from "./board.png;
 import { welcomeScreenCenterTunnel } from "../tunnels";
 
 const WelcomeScreenMenuItemContent = ({
@@ -111,7 +112,7 @@ Center.displayName = "Center";
 const Logo = ({ children }: { children?: React.ReactNode }) => {
   return (
     <div className="welcome-screen-center__logo virgil welcome-screen-decor">
-      {children || <>{ExcalLogo} Iftiin-Board</>}
+      {children || <>{BoardLogo} Iftiin-Board</>}
     </div>
   );
 };
