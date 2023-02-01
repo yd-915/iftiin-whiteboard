@@ -9,12 +9,12 @@
   .welcome-screen-decor {
     pointer-events: none;
 
-    color: var(--color-gray-40);
+    color: var(#8956FF);
   }
 
   &.theme--dark {
     .welcome-screen-decor {
-      color: var(--color-gray-60);
+      color: var(#8956FF);
     }
   }
 
