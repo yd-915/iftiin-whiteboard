@@ -44,7 +44,7 @@
     "withBackground": "Background",
     "exportEmbedScene": "Embed scene",
     "exportEmbedScene_details": "Scene data will be saved into the exported PNG/SVG file so that the scene can be restored from it.\nWill increase exported file size.",
-    "addWatermark": "Add \"Made with Excalidraw\"",
+    "addWatermark": "Add \"Brought to you by IFTIIN\"",
     "handDrawn": "Hand-drawn",
     "normal": "Normal",
     "code": "Code",
@@ -77,7 +77,7 @@
     "untitled": "Untitled",
     "name": "Name",
     "yourName": "Your name",
-    "madeWithExcalidraw": "Made with Excalidraw",
+    "madeWithExcalidraw": "Made with IFTIIN",
     "group": "Group selection",
     "ungroup": "Ungroup selection",
     "collaborators": "Collaborators",
@@ -452,7 +452,7 @@
   "welcomeScreen": {
     "app": {
       "center_heading": "All your data is saved locally in your browser.",
-      "center_heading_plus": "Did you want to go to the Excalidraw+ instead?",
+      "center_heading_plus": "Do you want to upgrade?",
       "menuHint": "Export, preferences, languages, ..."
     },
     "defaults": {
