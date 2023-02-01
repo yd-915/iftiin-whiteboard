@@ -23,10 +23,10 @@ export const AppMainMenu: React.FC<{
       <MainMenu.Separator />
       <MainMenu.ItemLink
         icon={PlusPromoIcon}
-        href="https://plus.excalidraw.com/plus?utm_source=excalidraw&utm_medium=app&utm_content=hamburger"
+        href="https://super-quokka-07af64.netlify.app/"
         className="ExcalidrawPlus"
       >
-        Excalidraw+
+        Upgrade+
       </MainMenu.ItemLink>
       <MainMenu.DefaultItems.Socials />
       <MainMenu.Separator />
