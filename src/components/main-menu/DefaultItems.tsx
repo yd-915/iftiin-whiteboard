@@ -16,7 +16,7 @@ import {
   TrashIcon,
   usersIcon,
 } from "../icons";
-import { GithubIcon,TwitterIcon } from "../icons";
+import { GithubIcon,InstagramIcon } from "../icons";
 import DropdownMenuItem from "../dropdownMenu/DropdownMenuItem";
 import DropdownMenuItemLink from "../dropdownMenu/DropdownMenuItemLink";
 import {
@@ -224,7 +224,7 @@ export const Socials = () => (
       OG Code
     </DropdownMenuItemLink>
     <DropdownMenuItemLink
-      icon={TwitterIcon}
+      icon={InstagramIcon}
       href="https://instagram.com/iftiin_official"
       aria-label="Instagram"
     >
