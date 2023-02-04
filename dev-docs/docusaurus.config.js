@@ -13,9 +13,9 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "Excalidraw", // Usually your GitHub org/user name.
-  projectName: "excalidraw", // Usually your repo name.
+  favicon: "img/board.png",
+  organizationName: "Iftiin-Board", // Usually your GitHub org/user name.
+  projectName: "iftiin-base", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -48,8 +48,8 @@ const config = {
       navbar: {
         title: "Excalidraw Docs",
         logo: {
-          alt: "Excalidraw Logo",
-          src: "img/logo.svg",
+          alt: "Iftiin-Board Logo",
+          src: "img/board.png",
         },
         items: [
           {
