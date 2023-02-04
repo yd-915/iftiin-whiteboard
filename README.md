@@ -1,6 +1,6 @@
 <div align="center" style="display:flex;flex-direction:column;">
-  <a href="https://excalidraw.com">
-    <img width="540" src="./public/og-image-sm.png" alt="Excalidraw logo: Sketch handrawn like diagrams." />
+  <a href="https://iftiin-whiteboard.com">
+    <img width="540" src="./public/board.png" alt="Iftiin-Board." />
   </a>
   <h3>Virtual whiteboard for sketching hand-drawn like diagrams.<br>Collaborative and end-to-end encrypted.</h3>
   <p>
@@ -16,13 +16,6 @@
 
 ## Try it now
 
-Go to [excalidraw.com](https://excalidraw.com) to start sketching.
-
-Read the latest news and updates on our [blog](https://blog.excalidraw.com). A good start is to see all the updates of [One Year of Excalidraw](https://blog.excalidraw.com/one-year-of-excalidraw/).
-
-## Supporting Excalidraw
-
-If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/excalidraw).
 
 [<img src="https://opencollective.com/excalidraw/tiers/sponsors/0/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/0/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/1/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/1/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/2/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/2/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/3/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/3/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/4/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/4/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/5/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/5/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/6/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/6/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/7/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/7/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/8/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/8/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/9/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/9/website) [<img src="https://opencollective.com/excalidraw/tiers/sponsors/10/avatar.svg?avatarHeight=120">](https://opencollective.com/excalidraw/tiers/sponsors/10/website)
 
@@ -124,7 +117,7 @@ Now you can open [http://localhost:3000](http://localhost:3000) and start coding
 
 #### Collaboration
 
-For collaboration, you will need to set up [collab server](https://github.com/excalidraw/excalidraw-room) in local.
+For collaboration, you will need to set up [collab server](https://github.com/excalidraw/iftiinwhiteboard-room) in local.
 
 #### Commands
 
@@ -164,38 +157,4 @@ yarn test:update
 yarn test:code
 ```
 
-#### Docker Compose
 
-You can use docker-compose to work on Excalidraw locally if you don't want to setup a Node.js env.
-
-```sh
-docker-compose up --build -d
-```
-
-### Self-hosting
-
-We publish a Docker image with the Excalidraw client at [excalidraw/excalidraw](https://hub.docker.com/r/excalidraw/excalidraw). You can use it to self-host your own client under your own domain, on Kubernetes, AWS ECS, etc.
-
-```sh
-docker build -t excalidraw/excalidraw .
-docker run --rm -dit --name excalidraw -p 5000:80 excalidraw/excalidraw:latest
-```
-
-The Docker image is free of analytics and other tracking libraries.
-
-**At the moment, self-hosting your own instance doesn't support sharing or collaboration features.**
-
-We are working towards providing a full-fledged solution for self-hosting your own Excalidraw.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please [open an issue](https://github.com/excalidraw/excalidraw/issues/new) first to discuss what you would like to change.
-
-## Notable used tools
-
-- [Create React App](https://github.com/facebook/create-react-app)
-- [Rough.js](https://roughjs.com)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vercel](https://vercel.com)
-
-And the main source of inspiration for starting the project is the awesome [Zwibbler](https://zwibbler.com/demo/) app.
