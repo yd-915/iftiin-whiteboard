@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Excalidraw developer docs",
+  title: "Iftiin-Board developer docs",
   tagline:
-    "For Excalidraw contributors or those integrating the Excalidraw editor",
+    "For Iftiin-Board contributors or those integrating the Iftiin-Board editor",
   url: "https://docs.excalidraw.com.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -46,7 +46,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Excalidraw Docs",
+        title: "Iftiin-Board Docs",
         logo: {
           alt: "Iftiin-Board Logo",
           src: "img/board.png",
@@ -59,7 +59,7 @@ const config = {
             label: "Get started",
           },
           {
-            to: "https://blog.excalidraw.com",
+            to: "https://blog.Iftiin-Board.com",
             label: "Blog",
             position: "left",
           },
