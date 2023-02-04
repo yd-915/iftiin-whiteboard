@@ -48,9 +48,6 @@ export const AppWelcomeScreen: React.FC<{
           <WelcomeScreen.Center.MenuItemLiveCollaborationTrigger
             onSelect={() => props.setCollabDialogShown(true)}
           />
-          {!isExcalidrawPlusSignedUser && (
-    
-          )}
         </WelcomeScreen.Center.Menu>
       </WelcomeScreen.Center>
     </WelcomeScreen>
