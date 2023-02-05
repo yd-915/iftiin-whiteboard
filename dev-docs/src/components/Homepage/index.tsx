@@ -3,7 +3,7 @@ import clsx from "clsx";
 import styles from "./styles.module.css";
 
 type FeatureItem = {
-  title: string;
+  title: "Iftiin-Board";
   Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
