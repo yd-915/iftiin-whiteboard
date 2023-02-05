@@ -22,7 +22,7 @@
     {
       "action": "/",
       "accept": {
-        "application/vnd.excalidraw+json": [".excalidraw"]
+        "application/vnd.excalidraw+json": [".iftiinboard"]
       }
     }
   ],
@@ -34,7 +34,7 @@
       "files": [
         {
           "name": "file",
-          "accept": ["application/vnd.excalidraw+json", "application/json", ".excalidraw"]
+          "accept": ["application/vnd.excalidraw+json", "application/json", ".iftiinboard"]
         }
       ]
     }
